@@ -2,18 +2,20 @@
 Design a modern enterprise campus from scratch.
 
 Week 1
-Learn
-Enterprise Architecture Basics
-Business Requirements Gathering
-Stakeholder Analysis
-Campus Design Principles
-Cisco Enterprise Campus Model
-Deliverable
-Requirement Analysis Document
+
+**Learn:**
+- Enterprise Architecture Basics,
+- Business Requirements Gathering
+- Stakeholder Analysis
+- Campus Design Principles
+- Cisco Enterprise Campus Model
+
+**Deliverable**
+- Requirement Analysis Document
 ________________________________________
 Week 2
-Learn
-Layer 2 vs Layer 3 Campus
+- Learn
+- Layer 2 vs Layer 3 Campus
 Core
 Distribution
 Access
