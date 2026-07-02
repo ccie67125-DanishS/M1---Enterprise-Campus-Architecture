@@ -7,8 +7,8 @@ Campus Architecture and Design Principles:
 
 Traditional 3 tier architecture components:
 
-********Access Layer********
-
+********Access Layer*******
+The access layer provides the intelligent demarcation between the network infrastructure and the computing devices that leverage that infrastructure. As such it provides a security, QoS, and policy trust boundary. It is the first layer of defense in the network security architecture and the first point of negotiation between end devices and the network infrastructure.
 
 **Table 1 Examples of Types of Service and Capabilities**
 
@@ -25,5 +25,18 @@ Application Recognition Services     ========>   QoS marking, policing, queuing,
 Intelligent Network Control Services =========>  PVST+, Rapid PVST+, EIGRP, OSPF, DTP, PAgP/LACP, UDLD, FlexLink, Portfast, UplinkFast, BackboneFast, LoopGuard, BPDUGuard, Port Security, RootGuard
 
 Physical Infrastructure Services     =========>  Power over Ethernet
+
+
+*******Distribution*******
+
+The aggregation point. Access layer switches uplink directly to this layer. This is where the boundary between Layer 2 (switching) and Layer 3 (routing) traditionally sits. It handles policy control, routing boundaries, access control lists (ACLs), and queuing.
+
+
+*******Core*********
+
+The high-speed backbone. The core’s sole purpose is to move traffic between different distribution blocks as fast as humanly possible. Architectural Rule: Never let security filtering, policy enforcement, or user packets terminate directly on the core. It must remain lean and lightning-fast.
+
+
+
 
 
